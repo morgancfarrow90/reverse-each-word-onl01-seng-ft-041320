@@ -3,8 +3,8 @@ def reverse_each_word(string)
  reversed_string = []
  
  string.collect do |char|
-  reversed_string << char.reverse()
+    reversed_string.unshift(char)
  end
  
- return reversed_string
+ return reversed_string.join('')
 end
