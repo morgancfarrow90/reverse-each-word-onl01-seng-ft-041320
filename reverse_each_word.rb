@@ -1,9 +1,9 @@
+def reverse_each_word
+stringreverse = string.
 
 
 
-
-
-def reverse_each_word(string)
+def reverse_all_word(string)
   split_string = string.split(" ")
   newarray = []
   split_string.each do |word|
