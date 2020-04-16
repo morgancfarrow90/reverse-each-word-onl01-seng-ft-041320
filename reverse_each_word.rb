@@ -4,6 +4,6 @@ def reverse_each_word(string)
   split_string.each do |word|
     newarray << word.reverse()
   end
-  backwardstring
+  newarray
 end
   
